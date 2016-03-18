@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.tabbedApplication</string>
+    <key>Ancestors</key>
+    <array>
+        <string>com.apple.dt.unit.storyboardApplication</string>
+    </array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a tab bar. It provides a user interface configured with a tab bar controller, and view controllers for the tab bar items.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+    <!-- Global nodes and definitions -->
+	<key>Nodes</key>
+	<array>
+		<string>Info.plist:statusBarTintForNavBar</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Base.lproj/Main.storyboard</key>
+		<dict>
+			<key>Path</key>
+			<string>Main.storyboard</string>
+			<key>SortOrder</key>
+			<integer>99</integer>
+		</dict>
+	</dict>
+	<key>Options</key>
+	<array>
+        <dict>
+            <key>Identifier</key>
+            <string>languageChoice</string>
+            <key>Units</key>
+            <dict>
+                <key>Objective-C</key>
+                <dict>
+                    <!-- Stuff for languageChoice=Objective-C -->
+                    <key>Nodes</key>
+                    <array>
+                        <string>FirstViewController.h:comments</string>
+                        <string>FirstViewController.h:imports:importCocoa</string>
+                        <string>FirstViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
+                        <string>FirstViewController.m:comments</string>
+                        <string>FirstViewController.m:imports:importHeader:FirstViewController.h</string>
+                        <string>FirstViewController.m:extension</string>
+                        <string>FirstViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+                        <string>FirstViewController.m:implementation:methods:viewDidLoad:super</string>
+                        <string>FirstViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
+                        <string>FirstViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+                        <string>SecondViewController.h:comments</string>
+                        <string>SecondViewController.h:imports:importCocoa</string>
+                        <string>SecondViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
+                        <string>SecondViewController.m:comments</string>
+                        <string>SecondViewController.m:imports:importHeader:SecondViewController.h</string>
+                        <string>SecondViewController.m:extension</string>
+                        <string>SecondViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+                        <string>SecondViewController.m:implementation:methods:viewDidLoad:super</string>
+                        <string>SecondViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
+                        <string>SecondViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+                    </array>
+                </dict>
+                <key>Swift</key>
+                <dict>
+                    <!-- Stuff for languageChoice=Swift -->
+                    <key>Nodes</key>
+                    <array>
+                        <string>FirstViewController.swift:comments</string>
+                        <string>FirstViewController.swift:imports:importCocoa</string>
+                        <string>FirstViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+                        <string>FirstViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+                        <string>FirstViewController.swift:implementation:methods:viewDidLoad:super</string>
+                        <string>FirstViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+                        <string>FirstViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+                        <string>SecondViewController.swift:comments</string>
+                        <string>SecondViewController.swift:imports:importCocoa</string>
+                        <string>SecondViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+                        <string>SecondViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+                        <string>SecondViewController.swift:implementation:methods:viewDidLoad:super</string>
+                        <string>SecondViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+                        <string>SecondViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+		<dict>
+			<key>Identifier</key>
+			<string>universalDeviceFamily</string>
+			<key>Units</key>
+			<dict>
+				<key>iPhone</key>
+				<dict>
+                    <!-- Stuff for universalDeviceFamily=iPhone -->
+					<key>Definitions</key>
+					<dict>
+                        <key>Assets.xcassets</key>
+                	    <dict>
+                		    <key>Path</key>
+                		    <string>Images-iPhone.xcassets</string>
+                		    <key>SortOrder</key>
+                		    <integer>100</integer>
+                	    </dict>
+					</dict>
+				</dict>
+				<key>iPad</key>
+				<dict>
+                    <!-- Stuff for universalDeviceFamily=iPad -->
+					<key>Definitions</key>
+					<dict>
+                        <key>Assets.xcassets</key>
+                	    <dict>
+                		    <key>Path</key>
+                		    <string>Images-iPad.xcassets</string>
+                		    <key>SortOrder</key>
+                		    <integer>100</integer>
+                	    </dict>
+					</dict>
+				</dict>
+				<key>Universal</key>
+				<dict>
+                    <!-- Stuff for universalDeviceFamily=Universal -->
+					<key>Definitions</key>
+					<dict>
+                        <key>Assets.xcassets</key>
+                	    <dict>
+                		    <key>Path</key>
+                		    <string>Images-Universal.xcassets</string>
+                		    <key>SortOrder</key>
+                		    <integer>100</integer>
+                	    </dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
